@@ -1,0 +1,18 @@
+{
+  "seed": 20261025,
+  "Python": "3.11.15 (main, Mar  3 2026, 00:52:57) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "darwin",
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.1",
+    "anndata": "0.12.19",
+    "h5py": "3.16.0",
+    "matplotlib": "3.11.2",
+    "statsmodels": "0.15.0"
+  },
+  "R": "R version 4.6.1 (2026-06-24) \nMatrix  1.7.5 \nR version 4.6.1 (2026-06-24)\nPlatform: aarch64-apple-darwin24.6.0\nRunning under: macOS Tahoe 26.6.2\n\nMatrix products: default\nBLAS:   /opt/homebrew/Cellar/openblas/0.3.34/lib/libopenblasp-r0.3.34.dylib \nLAPACK: /opt/homebrew/Cellar/r/4.6.1/lib/R/lib/libRlapack.dylib;  LAPACK version 3.12.1\n\nlocale:\n[1] C.UTF-8/C.UTF-8/C.UTF-8/C/C.UTF-8/C.UTF-8\n\ntime zone: America/Los_Angeles\ntzcode source: internal\n\nattached base packages:\n[1] stats     graphics  grDevices utils     datasets  methods   base     \n\nloaded via a namespace (and not attached):\n[1] compiler_4.6.1\n",
+  "pseudocell_seed_stream": "SHA256 rng_for(seed, R6_Terekhova_published,donor,visit,type),native_indices100x15",
+  "bootstrap_seed_stream": "numpy SeedSequence([20261025,6201]),shared multinomial(101) x 2000"
+}

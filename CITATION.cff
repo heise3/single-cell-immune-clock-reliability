@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "Please cite this software and the associated manuscript when available."
+title: "Single-cell immune clock repeat-measurement reliability: analysis code"
+type: software
+version: "0.1.0"
+date-released: "2026-10-27"
+repository-code: "https://github.com/heise3/single-cell-immune-clock-reliability"
+authors:
+  - family-names: Liang
+    given-names: Peng
+    orcid: "https://orcid.org/0009-0007-7583-8595"
+  - family-names: Wu
+    given-names: Jie
+  - family-names: Li
+    given-names: BaoLong
+  - family-names: Wu
+    given-names: XiangYan
+  - family-names: Zhu
+    given-names: Xiaona

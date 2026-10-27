@@ -1,0 +1,9 @@
+{
+  "seed": 20261025,
+  "python_sources_parsed": 134,
+  "R_sources_parsed": 11,
+  "synthetic_unit_tests_passed": 6,
+  "empirical_reanalysis": false,
+  "full_fresh_environment_rerun": "NOT_RUN",
+  "scope": "CODE_ONLY_NO_EMPIRICAL_TABLES"
+}

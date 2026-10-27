@@ -1,0 +1,13 @@
+{
+  "seed": 20261025,
+  "scope": "CODE_ONLY",
+  "source_files": 147,
+  "empirical_files": 0,
+  "participant_level_files": 0,
+  "aggregate_result_tables": 0,
+  "manuscript_files": 0,
+  "credentials_pattern_hits": 0,
+  "author_contact_details_included": false,
+  "license_selected": false,
+  "new_git_history_required": true
+}

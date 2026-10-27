@@ -1,0 +1,23 @@
+{
+  "seed": 20261025,
+  "python": "3.11.15 (main, Mar  3 2026, 00:52:57) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "h5py": "3.16.0",
+    "anndata": "0.12.19",
+    "scanpy": "1.11.5",
+    "statsmodels": "0.15.0",
+    "cellxgene-census": "1.18.0",
+    "tiledbsoma": "2.3.0",
+    "pyarrow": "26.0.0",
+    "fsspec": "2026.9.0",
+    "s3fs": "2026.9.0"
+  },
+  "Census_release": "2025-11-08",
+  "scImmuAging_commit": "112f8fab10c72aec6e7a7d83762a40117a1e6e24",
+  "RAM_IHA_Figure_commit": "ad523b6a72ebf9394c1dcc80289e5cf7c6edb85a",
+  "PHARE_commit": "0ab277b38ddac534d6d91e4580134cf6c78822ca",
+  "siAge_commit": "3e8e17567afa296213b414083eaca59b30455b81"
+}

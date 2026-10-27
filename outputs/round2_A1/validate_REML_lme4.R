@@ -1,0 +1,7 @@
+suppressPackageStartupMessages(library(lme4))
+set.seed(20261025)
+x<-read.csv('outputs/round2_A1/synthetic_REML_validation_input.csv')
+x$donor<-factor(x$donor);x$batch<-factor(x$batch)
+m<-lmer(y~1+(1|donor)+(1|batch),data=x,REML=TRUE,control=lmerControl(optimizer='bobyqa',optCtrl=list(maxfun=100000)))
+v<-as.data.frame(VarCorr(m))
+write.csv(v,'outputs/round2_A1/synthetic_REML_lme4.csv',row.names=FALSE)

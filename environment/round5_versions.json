@@ -1,0 +1,29 @@
+{
+  "seed": 20261025,
+  "Python": "3.11.15 (main, Mar  3 2026, 00:52:57) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "packages": {
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.1",
+    "anndata": "0.12.19",
+    "h5py": "3.16.0",
+    "cellxgene-census": "1.18.0",
+    "tiledbsoma": "2.3.0",
+    "matplotlib": "3.11.2",
+    "statsmodels": "0.15.0"
+  },
+  "R": "Rscript (R) version 4.6.1 (2026-06-24)",
+  "Census_release": "2025-11-08",
+  "AIDA_dataset_id": "c838aec3-03ef-4398-b882-0e3912abfff0",
+  "AIDA_dataset_version_id": "9deda9ad-6a71-401e-b909-5263919d85f9",
+  "published_model_code_commit": "112f8fab10c72aec6e7a7d83762a40117a1e6e24",
+  "P1_P2_shared_bootstrap": "np.random.default_rng(np.random.SeedSequence([20261025,4202]));2000 full68 multinomial weights;refitLODO",
+  "P3_MC": "A1 rng_for stableSHA256: R5_cell_bootstrap_ae|gsm|celltype and R5_a_algorithm|gsm|celltype;100 each",
+  "P4_selection": "SeedSequence([20261025,5401]);20 metadata/QC donors",
+  "P4_pseudocells": "A1 rng_for(R5_AIDA_external,gsm,celltype);100x15",
+  "P4_bootstrap": "A1 rng_for(donor_bootstrap,model,celltype);2000donor draws;refitLODO",
+  "no_new_clock_training": true,
+  "recorded_UTC": "2026-10-27T09:31:53.941334+00:00"
+}
